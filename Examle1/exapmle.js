@@ -16,7 +16,7 @@
       var img = document.querySelector('img');
       img.src = URL.createObjectURL(this.files[0]); // set src to blob url
   
-      //the event fires when the image has finished loading.
+      //he event fires when the image has finished loading.
       img.onload = function() {
         // Create a canvas element
         var canvas = document.createElement('canvas');
